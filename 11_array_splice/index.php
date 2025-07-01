@@ -26,4 +26,19 @@ echo "<br>";
 
 print_r($removidos2);
 
+echo "<br>";
+echo "<br>";
+
+
+$comidas = ["batata","maçã","pera","feijão", "arroz"];
+
+$remocao = array_splice($comidas, 2,2);
+
+print_r($comidas);
+echo "<br>";
+echo "<br>";
+
+print_r($remocao);
+
+
 
